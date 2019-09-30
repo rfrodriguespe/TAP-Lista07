@@ -3,22 +3,22 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package lista06;
+package lista07;
 
 /**
  *
  * @author rfrod
  */
-public class Enviar {
+public class Ligar {
 
-    public void enviar(String msg) {
-        System.out.println("Enviando " + msg);
+    public void ligar() {
+        System.out.println("Ligando os equipamentos");
         try {
             Thread.sleep(1000);
         } catch (Exception e) {
             System.out.println("Thread  interrompida.");
         }
-        System.out.println( msg + " enviada.");
+        System.out.println("Equipamentos ligados.");
     }
 
 }
